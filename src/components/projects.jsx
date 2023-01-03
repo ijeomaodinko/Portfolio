@@ -40,7 +40,7 @@ const Projects = () => {
         },
         {
             id: 4,
-          title: 'Budget App',
+          title: 'Erypto App',
           subt: ['CANOPY', 'Back End Dev', '2022'],
           desc: "This porject gives information about crypto currencies. The information is fetched from API.",
           img: budget,
