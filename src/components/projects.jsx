@@ -42,11 +42,11 @@ const Projects = () => {
             id: 4,
           title: 'Budget App',
           subt: ['CANOPY', 'Back End Dev', '2022'],
-          desc: "Budget App is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+          desc: "This porject gives information about crypto currencies. The information is fetched from API.",
           img: budget,
-          tech: ['Ruby', 'CSS', 'Ruby on Rails'],
-          live: 'https://sheltered-shore-56941.herokuapp.com/',
-          source: 'https://github.com/ijeomaodinko/Budget-app.git',
+          tech: ['React', 'Redux', 'CSS'],
+          live: 'https://timely-medovik-20a0c5.netlify.app',
+          source: 'https://github.com/ijeomaodinko/React-Project.git',
         },
     ];
     return (
