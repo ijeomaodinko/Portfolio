@@ -25,17 +25,17 @@ function Aboutpage() {
                     </div>
                     <div>
                     <a href="https://www.linkedin.com/in/ijeoma-odinko/">
-                        < FaLinkedin size={40} style={{ color: "#000", marginRight:"1.9rem"}} />
+                        < FaLinkedin size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
                      </a>
                     </div>
                     <div>
                     <a href="https://github.com/ijeomaodinko/">
-                        < FaGithub size={40} style={{ color: "#000", marginRight:"1.9rem"}} />
+                        < FaGithub size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
                     <a href="https://medium.com/@estherlinei">
-                        < FaMedium size={40} style={{ color: "#000", marginRight:"1.9rem"}} />
+                        < FaMedium size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
