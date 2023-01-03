@@ -1,6 +1,5 @@
 import React from "react";
 import imgi from "../assets/imgi.jpg";
-import { Link } from "react-router-dom";
 import "./Heroimg.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
