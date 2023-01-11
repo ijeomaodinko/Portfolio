@@ -22,7 +22,7 @@ function Navbar() {
         return (
         <div className={color ? "header header-bg" : "header" }>
             <Link to="/">
-                <h1> IEO </h1>
+                <h1> IE </h1>
             </Link>
             <ul className={ click ? "nav-menu active" : "nav-menu" } >
             <li>

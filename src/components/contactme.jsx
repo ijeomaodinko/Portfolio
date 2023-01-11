@@ -6,9 +6,9 @@ function Contactpage() {
     return (    
           <div class="SectionfText" id="contact">
         <h1 class="frm">Say Hello</h1>
-        <p class="center"> If you have application you are interested in developing,
-          a feature that you need built or a project that needs 
-          coding. I'd love to help with it</p>
+        <p class="center"> If you have an application that you are interested in developing,
+          a feature that you need to build or a project that needs 
+          coding. I'd love to help with it.</p>
           <div className="contacti">
           <form action="https://formspree.io/f/meqnzbev" target="_blank" method="post" id="contact-form" >
             <ul>
@@ -29,11 +29,10 @@ function Contactpage() {
           <div className="phone">
                     <h4>< FaPhone size={20} style={{ color: "rgb(173, 164, 164)", marginRight:"0.5rem"}} />
                     +2348037817167</h4> </div>
-                    <div className="mail">
+                    {/* <div className="mail">
                     <h4>< FaMailBulk size={20} style={{ color: "rgb(173, 164, 164)", marginRight:"0.5rem"}} />
-                    ijeomaodinko@gmail.com
-                    </h4>
-                    </div>
+                   Email</h4>
+                    </div> */}
           </div>
           </div>
         )

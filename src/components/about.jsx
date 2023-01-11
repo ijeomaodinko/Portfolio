@@ -9,38 +9,38 @@ function Aboutpage() {
               <div className="aboutpage"> 
                 <div className="aboutme">
                 <h1 className="h1"> About Myself</h1>
-                <p className="p">  Hello, I’m a software developer! I can help you build a product ,
-            feature or website. Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.</p>
+                <p className="p">  Hello, I’m a full stack developer specializing in building things for the web.<br />
+                I am highly proficient in HTML, CSS, and React, but I also work with JavaScript. I am currently working on improving my skills in Ruby on Rails. I am passionate about responsive designs, getting websites to look good across different platforms and devices, whether is mobile first or desktop first approach. <br />
+                Listed are technologies that I have been working with recently and some of my skills.
+                </p>
             <p class="let-connect">
             LET'S CONNECT
           </p>
                 </div>
                 <div className="contact">
                      <div>
-                     <a href="https://twitter.com/pureblog09">
-                        < FaTwitter size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
+                     <a href="https://twitter.com/pureblog0">
+                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                         </a>
                     </div>
                     <div>
                     <a href="https://www.linkedin.com/in/ijeoma-odinko/">
-                        < FaLinkedin size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
+                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                      </a>
                     </div>
                     <div>
                     <a href="https://github.com/ijeomaodinko/">
-                        < FaGithub size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
+                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
                     <a href="https://medium.com/@estherlinei">
-                        < FaMedium size={29} style={{ color: "#000", marginRight:"1.9rem"}} />
+                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
-                     <a href="https://www.linkedin.com/in/ijeoma-odinko/">
-                        < FaAngellist size={29} style={{ color: "#000"}} />
+                     <a href="https://angel.co/u/ijeoma-odinko">
+                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
                         </a>
                     </div>
 
@@ -53,7 +53,7 @@ function Aboutpage() {
 
 
             <div className="languages">
-            <h1 className="i"> Skills </h1>
+            <h1 className="i"> Technologies </h1>
             <div className="language">
              <div class="box a">HTML</div>
              <div class="box b">CSS</div>
@@ -62,12 +62,19 @@ function Aboutpage() {
             <div class="box e">Ruby</div>
             <div class="box f">Ruby on Rails</div>
             <div class="box g">Redux</div>
-            <div class="box h">Netlify</div>
+            <div class="box h">Rspec</div>
             <div class="box i">Webpack</div>
             </div>
-
+            <h1 className="i"> Skills </h1>
+            <div className="language">
+             <div class="box a">Result Oriented</div>
+             <div class="box b">Team Player</div>
+            <div class="box c"> Time Management</div>
+            <div class="box d">Communication</div>
+            <div class="box e">Remote</div>
+            <div class="box f">Creative Thinking</div>
             </div>
-
+            </div>
             </div>
         </div>
     )

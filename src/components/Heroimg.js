@@ -1,19 +1,21 @@
 import React from "react";
-import imgi from "../assets/imgi.jpg";
 import "./Heroimg.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Heroimg() {
     return (
-        <div className="hero" style={{backgroundImage:'url('+imgi+')', backgroundSize:"cover"}} id="home">
+        <div className="hero" id="home">
         <div>
         <div className="content">
         <div className="heroi">
-        <h1>I'M  IJEOMA ODINKO.</h1>
-        <AnchorLink href="#projects"  className="btn">Projects</AnchorLink>
+        <p className="hip">Hi, my name is</p>
+        <h1 className="h1i">Ijeoma Odinko.</h1>
+        <h2 className= "h2i"> I build  digital solutions.</h2>
+        <h2 className="h2">I'm a Full Stack Engineer with a passion in building digital experience. I develop, design and implement
+        applications for the web through tech.</h2>
         </div>
-        <div className="heroi">
-        <p>I’M A SOFTWARE DEVELOPER!</p>
+        <div className="heroip">
+        <AnchorLink href="#projects"  className="btn">Projects</AnchorLink>
         <AnchorLink href="#contact" className="btn-light">Contact</AnchorLink>
         </div>
         <div className="herois">  
