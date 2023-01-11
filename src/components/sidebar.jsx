@@ -1,11 +1,11 @@
 import './sidebar.css';
 import React from 'react';
 import { FaTwitter, FaLinkedin, FaGithub, FaMedium, FaAngellist } from "react-icons/fa";
-import { Menu, MenuItem, ProSidebarProvider } from "react-pro-sidebar"
+import { Menu, MenuItem, ProSidebarProvider } from "react-pro-sidebar";
 
 function Sidebar() {
   return (
-    <div>
+    <div className="i">
     <ProSidebarProvider  id="headersi">
     <Menu iconShape="square">
     <div className="contact">
