@@ -27,8 +27,8 @@ function Contactpage() {
           </div>
           <div className="contactis">
           <div className="phone">
-                    <h4>< FaPhone size={20} style={{ color: "rgb(173, 164, 164)", marginRight:"0.5rem"}} />
-                    +2348037817167</h4> </div>
+                    <h4>
+                    ©ijeomaodinko. All Rights Reserved</h4> </div>
                     {/* <div className="mail">
                     <h4>< FaMailBulk size={20} style={{ color: "rgb(173, 164, 164)", marginRight:"0.5rem"}} />
                    Email</h4>

@@ -10,7 +10,7 @@ function Aboutpage() {
                 <div className="aboutme">
                 <h1 className="h1"> About Myself</h1>
                 <p className="p">  Hello, I’m a full stack developer specializing in building things for the web.<br />
-                I am highly proficient in HTML, CSS, and React, but I also work with JavaScript. I am currently working on improving my skills in Ruby on Rails. I am passionate about responsive designs, getting websites to look good across different platforms and devices, whether is mobile first or desktop first approach. <br />
+                I am highly proficient in HTML, CSS, React, and Ruby on Rails but I also work with JavaScript. I am currently working on improving my skills in Rspec. I am passionate about responsive designs, getting websites to look good across different platforms and devices, whether is mobile first or desktop first approach. <br />
                 Listed are technologies that I have been working with recently and some of my skills.
                 </p>
             <p class="let-connect">
@@ -63,7 +63,7 @@ function Aboutpage() {
             <div class="box f">Ruby on Rails</div>
             <div class="box g">Redux</div>
             <div class="box h">Rspec</div>
-            <div class="box i">Webpack</div>
+            <div class="box i">PostgreSQL</div>
             </div>
             <h1 className="i"> Skills </h1>
             <div className="language">

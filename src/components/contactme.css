@@ -53,13 +53,13 @@
   
   .form-btn {
     padding: 1em;
-    color:  #ccd6f6;
-    border-radius: 8px;
+    color:  #000;
+    border-radius: 24px;
     font-weight: 600;
     width: 140px;
     height: 49px;
     margin-top: 12px;
-    background-color: #112240;
+    background-color: #a8b2d1;
     border: 1px solid rgba(235, 30, 156, 0.993);
   }
   

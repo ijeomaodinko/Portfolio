@@ -29,11 +29,11 @@ function Navbar() {
             <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li>
-      <AnchorLink href="#projects">Projects</AnchorLink>
+            <AnchorLink href="#about">About</AnchorLink>
                
             </li>
             <li>
-            <AnchorLink href="#about">About</AnchorLink>
+      <AnchorLink href="#projects">Projects</AnchorLink>
                
             </li>
             <li>

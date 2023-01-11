@@ -1,12 +1,12 @@
 .aboutContent {
     background-color: #0a192f;
     width: 100%;
-    height:110vh;
+    height:112vh;
     top: 0;
     left: 0;
     margin: auto auto;
     border-top-right-radius: 6rem;
-    margin-top: 2rem;
+    /* margin-top: 1rem; */
 }
 .wrapper{
     display: grid;
