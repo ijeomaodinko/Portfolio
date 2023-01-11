@@ -1,5 +1,4 @@
 import React from "react";
-import { FaPhone, FaMailBulk } from "react-icons/fa";
 import "./contactme.css";
 
 function Contactpage() {
