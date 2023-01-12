@@ -46,6 +46,27 @@
     margin-bottom: 2.5rem;
 }
 
+.contact {
+    position: fixed; 
+    width:29px;
+    height: 0;
+    background-color: #fff;
+    margin: auto auto;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: -59rem;
+    margin-left: -5rem;
+  }
+
+  .contacte {
+    display: flex;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
 .let-connect {
     text-decoration: none;
     color: #a8b2d1;
@@ -70,7 +91,7 @@
     height: 8vh;
     font-size: 24px;
     border-radius: 0.5rem;
-    color:rgb(24, 23, 23)
+    color:rgb(24, 23, 23);
 }
 
 .resume:hover {
@@ -141,7 +162,7 @@
       margin-top: 5.1rem;
 }
 
-  .language {
+.language {
     display: grid;
     grid-template-columns: 125px 150px;
     grid-gap: 12px;
@@ -187,7 +208,8 @@
 }
 .resume{
     padding-bottom: 0;
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
+    margin-top:1rem;
 }
 
- }
+}

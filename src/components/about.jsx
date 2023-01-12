@@ -46,6 +46,64 @@ function Aboutpage() {
 
                 </div>
 
+                <div className="contact">
+                     <div>
+                     <a href="https://twitter.com/pureblog0">
+                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        </a>
+                    </div>
+                    <div>
+                    <a href="https://www.linkedin.com/in/ijeoma-odinko/">
+                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                     </a>
+                    </div>
+                    <div>
+                    <a href="https://github.com/ijeomaodinko/">
+                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                    </a>
+                    </div>
+                    <div>
+                    <a href="https://medium.com/@estherlinei">
+                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                    </a>
+                    </div>
+                    <div>
+                     <a href="https://angel.co/u/ijeoma-odinko">
+                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
+                        </a>
+                    </div>
+
+                </div>
+
+                <div className="contacte">
+                     <div>
+                     <a href="https://twitter.com/pureblog0">
+                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        </a>
+                    </div>
+                    <div>
+                    <a href="https://www.linkedin.com/in/ijeoma-odinko/">
+                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                     </a>
+                    </div>
+                    <div>
+                    <a href="https://github.com/ijeomaodinko/">
+                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                    </a>
+                    </div>
+                    <div>
+                    <a href="https://medium.com/@estherlinei">
+                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                    </a>
+                    </div>
+                    <div>
+                     <a href="https://angel.co/u/ijeoma-odinko">
+                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
+                        </a>
+                    </div>
+
+                </div>
+
                 <div className="resume">
                 <a href="https://docs.google.com/document/d/1NJyon1GKzHx4COIBLH6vuco-nFt-Vm1aXktGAcrbdMw/edit?usp=sharing">
                 Get My Resume </a></div>
