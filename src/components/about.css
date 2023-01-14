@@ -31,11 +31,11 @@
     grid-row-start: 1;
     grid-row-end: 5;
     text-justify: auto;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5em;
     color: #8892b0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .contact {
@@ -69,9 +69,13 @@
 }
 .let-connect {
     text-decoration: none;
-    color: #a8b2d1;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
+    line-height: 1.6;
+    font-family: sans-serif;
+    color:  #8892b0;
+    font-family: sans-serif;
+    visibility: visible;
     
 }
 
@@ -82,16 +86,17 @@
     display: flex;
     grid-row-start: 6;
     grid-row-end: 8;
-    padding: 0.6rem 0.6rem 1rem 1.9rem;
+    padding: 0.9rem 0.6rem 1rem 1.9rem;
     text-align: center;
     width: 14rem;
     border-width: 1rem;
     box-sizing: border-box;
     background-color: rgb(104, 135, 155);
     height: 8vh;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 0.5rem;
     color:rgb(24, 23, 23);
+    font-family: sans-serif
 }
 
 .resume:hover {
@@ -101,11 +106,13 @@
     transition: 0.3ms;
 }
 .p {
-    color: #ccd6f6;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2rem;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: sans-serif;
+    color:  #8892b0;
+     font-family: sans-serif;
+     visibility: visible;
 }
 .languages {
     width: 100%;
@@ -119,21 +126,25 @@
     grid-template-columns: 140px 120px 185px;
     grid-gap: 16px;
     background-color: #0a192f;
-    color: #444;
+    color: #8892b0;
     grid-row-gap: 16px;
     text-align: center;
 }
 
 .i {
     color: #64ffda;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: sans-serif;
+    visibility: visible;
 }
 
 .box {
-    color: #ccd6f6;
+    color: #8892b0;
     border-radius: 5px;
     padding: 10px;
-    font-size: 100%;
+    font-size: 16px;
     background-color:#233554;
     border: 2px solid #233554;
     border-top: #172b4d;
@@ -145,6 +156,15 @@
     border-bottom-width: 1px;
     transition: 0.3ms;
 }
+
+.box.i {
+    width: 100%;
+    height: 89%;
+    padding-top:0.6rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
  @media screen and (max-width: 640px){
   .wrapper {

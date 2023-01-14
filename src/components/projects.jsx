@@ -51,14 +51,18 @@ const Projects = () => {
     ];
     return (
         <div className="projects" id="projects" >
-        <h1 className="projectsi">Most Recent Projects</h1>
+        <h1 className="projectsi">Projects</h1>
         <div className="wrapperp">
         {data.map((projects) => {
             return (<div className="project" key={projects.id}>
+            <div className="imgi">
                 <h1 className="projectsisi">{projects.title}</h1>
                 <div className="projectimgd1">
                 <img className="imgd1" src={projects.img} alt="{projects.title}" />
                 </div>  
+            </div>
+            <div className="texti">
+            {/* <h1 className="projectsesi">{projects.id}</h1> */}
                 <div><p className="projectse">{projects.desc}</p></div>
                 <div className="projectechi">
                 {projects.tech.map((tech, index) => {
@@ -69,15 +73,16 @@ const Projects = () => {
                 <div className="projecti">
                 <div className="projectsisis">
                      <a href={projects.live}> <p> See Live <span>
-                        < FaExternalLinkAlt size={15} style={{ color: "#000"}} />
+                        < FaExternalLinkAlt size={15} style={{ color: "#ccd6f6"}} />
                      </span> </p>  </a>
                     </div>
                     <div className="projectsisis">
                      <a href={projects.source}> <p>See Source <span>
-                        < FaGithub size={15} style={{ color: "#000"}} />
+                        < FaGithub size={15} style={{ color: "#ccd6f6"}} />
                     </span></p>
                         </a>
                     </div>
+               </div>
                </div>
             </div>
             );

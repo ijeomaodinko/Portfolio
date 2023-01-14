@@ -1,5 +1,5 @@
 .projects {
-    background-color:  #f7f7f9;
+    background-color:  #0a192f;
     width: 100%;
     height: 191vh;
     top: 0;
@@ -23,7 +23,7 @@
 }
 .wrapperp {
     display: grid;
-    background-color: rgb(248, 240, 236);
+    background-color: #0a192f;
     width: 86%;
     height: 160vh;
     grid-template-columns: repeat(2, 1fr);
@@ -42,28 +42,94 @@
     padding-bottom: 1rem;
 }
 
-.project {
+/* .project {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 1rem;
     border-radius: 0.5rem;
+} */
+
+.project {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #d4d4d4;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    rotate: -4deg;
+    border: 2px solid #64ffda;
+    box-shadow: inset 0 0 10px #000000;
+    box-shadow: 0 8px 8px -3px #720d6a;
+}
+.project:hover .imgi {
+    opacity: 0
+}
+.project:hover .texti {
+    opacity: 1
+}
+.imgi {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: opacity .3s linear;
+    rotate: 6deg;
+  }
+  .texti {
+      transition: opacity .3s linear;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      opacity: 0;
+      background-color: #0a192f;
+      border-radius: 12px;
+      padding: 1rem;
+      rotate: 4.6deg;
+    }
+.texti:hover {
+    animation: loader 0.69s;
+}
+.projectsesi{
+    font-size: 79px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 1rem;
+    margin-top:0;
+    margin-bottom: 0;
+    color:#8892b0;
+}
+@keyframes loader {
+    0% {
+      rotate: 0deg;
+    }
+    95% {
+      border-radius: 50%;
+      rotate: 180deg;
+    }
 }
 .projectsisi{
     color:  #444;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 1rem;
     text-align: center;
 }
 .projectimgd1 {
  display:block;
  width:100%;
- height:25vh;
+ height:100%;
  overflow: hidden;
 }
 .imgd1 {
     display: block;
     width: 100%;
-    height: 25vh;
+    height: auto;
     border-radius: 0.5rem;
     transition: transform .2s;
     transition: 0.3s all ease-in-out;
@@ -76,11 +142,16 @@
 }
 
 .projectse {
-    color:  #444;
-    font-size: 16px;
+    color:  #ccd6f6;
+    font-size: 20px;
     text-align: justify;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 1.6;
+    font-family:sans-serif;
+    visibility: visible;
+    transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+    transition:cubic-bezier(0.645, 0.045, 0.355, 1)0.2s, transform 0.5 cubic-bezier(0.645, 0.045, 0.355, 1)0.2;
+    margin-top:1.5rem;
 }
 
 .projecti p {
@@ -92,7 +163,7 @@
 .projectechi{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 0;
 }
 .projecti{
@@ -101,23 +172,38 @@
     gap: 2rem;
 }
 .projectech  p{
-    font-size: 18px;
-    color: #fff;
+    font-size: 16px;
+    color: #ccd6f6;
     text-align: center;
-    background-color:rgba(235, 30, 156, 0.993);
+    font-family: sans-serif;
+    /* background-color:rgba(133, 4, 83, 0.589); */
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.2rem;
     padding-bottom: 0.21rem;
-    border-radius: 1.6rem;  
+    border-radius: 0.5rem;
     margin-top: 0; 
+    border: 1.5px solid rgba(219, 38, 150, 0.589);  
+    box-shadow: 1px 8px 8px -3px #720d6a;
+    margin-bottom: 1rem;
 }
 
 .projectsisis {
     display: block;
-    padding-right: 0.5rem;
+    padding: 0.1rem;
+    border: 1px solid #64ffda;
+    box-shadow: 1px 8px 8px -7px #64ffda;
+    padding-bottom:0;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    height: 4vh;
+    border-radius: 0.5rem;
+    
 }
-
+.projectsisis p{
+    color: #ccd6f6;
+    font-size: 16px;
+}
 .projecti p:hover {
     color: #92929c;
     transition: 0.3ms;
@@ -126,33 +212,58 @@
 @media screen and (max-width: 640px) {
 
 .project {
-width: 86%;
+width: 85%;
 margin-left: auto;
 margin-right: auto;
+height: 85%;
+}
+.texti{
+    width: 100%;
+    animation: none;
+}
+.imgd1{
+ height: auto;
 }
 
 .wrapperp{
  grid-template-columns: repeat(1, 1fr);   
- background-color:#efefef;
+ background-color:#0a192f;
  height: 340vh;
  grid-column-gap: 0;
+ width: 85%;
 }
 
 .projects {
- padding:0;
+width: 100%;
+ padding:0.1px;
  height: 381vh;
 }
 .projectechi {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 0.4rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 .projectech p{
-    font-size:12px;
+    font-size:15.1px;
+}
+.projectech {
+    width: 5.9rem;
 }
 .projectsi {
+    font-size: 21px;
+}
+.projectse {
     font-size: 19px;
+    font-weight: 400;
+}
+.projectsisis{
+font-size: 16px;
+width: 100%;
+}
+
+.projecti {
+    gap: 0.5rem;
 }
 }

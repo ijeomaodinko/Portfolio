@@ -49,13 +49,19 @@ padding-top: 1rem;
 
 .nav-menu li a:hover {
     color: #64ffda;
+    transform: 0.5s all ease-in-out;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1); 
+    border-bottom: 3px solid #64ffda;
+    padding-bottom: 1rem;
 }
 
 .hamburger {
     display: none;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1064px) {
     .nav-menu {
         flex-direction: column;
         justify-content: center;
@@ -71,7 +77,7 @@ padding-top: 1rem;
     }
 
     .header {
-    width: 95%;
+    width: 100%;
     }
 
     .nav-menu.active{
