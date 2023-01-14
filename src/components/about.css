@@ -80,7 +80,7 @@
 }
 
 .h1 {
-    color:rgba(235, 30, 156, 0.993);;
+    color:rgba(235, 30, 156, 0.993);
 }
 .resume {
     display: flex;
@@ -141,7 +141,7 @@
 }
 
 .box {
-    color: #8892b0;
+    color: #fff;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
@@ -152,9 +152,10 @@
   }
 .box:hover {
     background-color: #9b9ea7;
-    color: #fff;
+    color: #000;
     border-bottom-width: 1px;
     transition: 0.3ms;
+    border: 1px solid rgba(235, 30, 156, 0.993) ;
 }
 
 .box.i {
@@ -184,13 +185,13 @@
 
 .language {
     display: grid;
-    grid-template-columns: 125px 150px;
+    grid-template-columns: 150px 150px;
     grid-gap: 12px;
     grid-row-gap: 12px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 10px;
     padding-left: 0;
     margin-top:-1rem;
   }
@@ -230,6 +231,17 @@
     padding-bottom: 0;
     /* margin-top: -1rem; */
     margin-top:1rem;
+}
+
+.box {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.box.i {
+    height: 80%;
+    padding-top:0.4rem;
+    padding-bottom: 0.6rem;
 }
 
 }
