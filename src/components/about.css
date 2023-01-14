@@ -82,6 +82,8 @@
 .h1 {
     font-size: 24;
     color:rgba(235, 30, 156, 0.993);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .resume {
     display: flex;
