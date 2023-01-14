@@ -105,7 +105,7 @@ function Aboutpage() {
                 </div>
 
                 <div className="resume">
-                <a href="https://docs.google.com/document/d/1NJyon1GKzHx4COIBLH6vuco-nFt-Vm1aXktGAcrbdMw/edit?usp=sharing">
+                <a href="https://drive.google.com/file/d/1p0MsdE1aLPb6er4fy-3XeW23N5FVcGK3/view?usp=sharing">
                 Get My Resume </a></div>
             </div>
 
