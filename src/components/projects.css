@@ -60,7 +60,7 @@
     rotate: -4deg;
     border: 2px solid #64ffda;
     box-shadow: inset 0 0 10px #000000;
-    box-shadow: 0 8px 8px -3px #720d6a;
+    box-shadow: 0 8px 8px -3px rgba(235, 30, 156, 0.993);
 }
 .project:hover .imgi {
     opacity: 0;
@@ -88,7 +88,7 @@
       background-color: #0a192f;
       border-radius: 12px;
       padding: 1rem;
-      rotate: 2.6deg;
+      rotate: 2.7deg;
     }
 .texti:hover {
     animation: loader 0.69s;
@@ -183,7 +183,7 @@
     border-radius: 0.5rem;
     margin-top: 0; 
     border: 1.5px solid rgba(219, 38, 150, 0.589);  
-    box-shadow: 1px 8px 8px -3px #720d6a;
+    box-shadow: 1px 8px 8px -3px rgba(235, 30, 156, 0.993);
     margin-bottom: 1rem;
 }
 
@@ -200,7 +200,7 @@
 }
 .projectsisis p{
     color: #ccd6f6;
-    font-size: 16px;
+    font-size: 15px;
 }
 .projecti p:hover {
     color: #92929c;
