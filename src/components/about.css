@@ -86,9 +86,9 @@
     display: flex;
     grid-row-start: 6;
     grid-row-end: 8;
-    padding: 0.9rem 0.6rem 1rem 1.9rem;
+    padding: 0.9rem 0.6rem 1rem 1.6rem;
     text-align: center;
-    width: 14rem;
+    width: 10rem;
     border-width: 1rem;
     box-sizing: border-box;
     background-color: rgb(104, 135, 155);
