@@ -27,27 +27,32 @@ function Contactpage() {
           </div>
           <div className="contactei">
                      <div>
-                     <a href="https://twitter.com/pureblog0">
+                     <a href="https://twitter.com/pureblog0" target="_blank"
+        rel="noreferrer" >
                         < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                         </a>
                     </div>
                     <div>
-                    <a href="https://www.linkedin.com/in/ijeoma-odinko/">
+                    <a href="https://www.linkedin.com/in/ijeoma-odinko/" target="_blank"
+        rel="noreferrer" >
                         < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                      </a>
                     </div>
                     <div>
-                    <a href="https://github.com/ijeomaodinko/">
+                    <a href="https://github.com/ijeomaodinko/" target="_blank"
+        rel="noreferrer" >
                         < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
-                    <a href="https://medium.com/@estherlinei">
+                    <a href="https://medium.com/@estherlinei" target="_blank"
+        rel="noreferrer" >
                         < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
-                     <a href="https://angel.co/u/ijeoma-odinko">
+                     <a href="https://angel.co/u/ijeoma-odinko" target="_blank"
+        rel="noreferrer" >
                         < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
                         </a>
                     </div>
