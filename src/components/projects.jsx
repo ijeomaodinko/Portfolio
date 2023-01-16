@@ -72,12 +72,14 @@ const Projects = () => {
                 </div>
                 <div className="projecti">
                 <div className="projectsisis">
-                     <a href={projects.live}> <p> See Live <span>
+                     <a href={projects.live} target="_blank"
+        rel="noreferrer" > <p> See Live <span>
                         < FaExternalLinkAlt size={15} style={{ color: "#ccd6f6"}} />
                      </span> </p>  </a>
                     </div>
                     <div className="projectsisis">
-                     <a href={projects.source}> <p>See Source <span>
+                     <a href={projects.source} target="_blank"
+        rel="noreferrer"> <p>See Source <span>
                         < FaGithub size={15} style={{ color: "#ccd6f6"}} />
                     </span></p>
                         </a>
