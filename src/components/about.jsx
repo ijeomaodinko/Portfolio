@@ -21,31 +21,31 @@ function Aboutpage() {
                      <div className="contactdiv">
                      <a href="https://twitter.com/pureblog0" target="_blank"
         rel="noreferrer" >
-                        < FaTwitter size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
+                        < FaTwitter size={29} className="img" style={{ margin:"9px" }} />
                         </a>
                     </div>
                     <div className="contactdiv">
                     <a href="https://www.linkedin.com/in/ijeoma-odinko/"  target="_blank"
         rel="noreferrer" >
-                        < FaLinkedin size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
+                        < FaLinkedin size={29} className="img" style={{ margin:"9px" }} />
                      </a>
                     </div>
                     <div className="contactdiv">
                     <a href="https://github.com/ijeomaodinko/" target="_blank"
         rel="noreferrer"  >
-                        < FaGithub size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
+                        < FaGithub size={29} className="img" style={{ margin:"9px" }} />
                     </a>
                     </div>
                     <div className="contactdiv">
                     <a href="https://medium.com/@estherlinei" target="_blank"
         rel="noreferrer"  >
-                        < FaMedium size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
+                        < FaMedium size={29} className="img" style={{ margin:"9px" }} />
                     </a>
                     </div>
                     <div className="contactdiv">
                      <a href="https://angel.co/u/ijeoma-odinko"  target="_blank"
         rel="noreferrer" >
-                        < FaAngellist size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
+                        < FaAngellist size={29} className="img" style={{ margin:"9px"}} />
                         </a>
                     </div>
 
