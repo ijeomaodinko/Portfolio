@@ -24,9 +24,9 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   font-family: sans-serif;
-  background:#a8b2d1;
+  background:var(--text-secondary);
   color: #000;
-  border: 1px solid rgba(235, 30, 156, 0.993);
+  border: 1px solid var(--text-secondary);
   font-weight: 660;
   cursor: pointer;
   width: 9.5rem;
@@ -35,17 +35,17 @@ ul{
   justify-content: center;
   height: 8vh;
   margin-top: 1.6rem;
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
 }
 
 .btn-light {
   background: transparent;
-  color: #fff;
+  color: var(--text-primary);
   padding: 12px 32px;
   font-size: 1rem;
   font-family: sans-serif;
-  border: 1px solid rgba(235, 30, 156, 0.993);
+  border: 1px solid var(--text-secondary);
   font-weight: 660;
   cursor: pointer;
   width: 9.5rem;
@@ -54,35 +54,38 @@ ul{
   justify-content: center;
   height: 8vh;
   margin-top: 1.6rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-
+  border-top-right-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
 }
 
 .btn:hover {
-background: rgb(255, 255, 255, 0.2);
-color: #fff;
+background: var(--text-primary);
+color: var(--background);
 transition: 0.3s;
 }
 
 .btn-light:hover {
-background: rgba(10, 3, 3, 0.2);
-color: #000;
+background: var(--text-primary);
+color: var(--background);
 transition: 0.3s;
 }
 
-
-
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --background: #eaebed;
+  --text-primary: #2e424d;
+  --text-secondary:#e65c4f;
+  --text-tertiary: #326789;
+  --accent: #c1c1c1;
+  --border: #ffab2f;
+  --form-bg: #f2f2f2;
+}
+[data-theme='dark']{
+  --background: black;
+  --text-primary: #ccd6f6;
+  --text-secondary: #26d6a7;
+  --text-tertiary: #a8b2d1;
+  --accent: #999999;
+  --border: #ede700;
+  --form-bg: #f2f2f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */

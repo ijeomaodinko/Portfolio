@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaToggleOn} from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import useLocalStorage from "use-local-storage";
+
 
 function Navbar() {
 
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-       
+    const handleClick = () => setClick(!click);  
     const [color, setColor] = useState(false);
     const changeColor = () => {
         if (window.scrolly >=100) {
@@ -17,10 +18,10 @@ function Navbar() {
             setColor(false);
         }
         };
-
+        
         window.addEventListener("scroll", changeColor);
         return (
-        <div className={color ? "header header-bg" : "header" }>
+            <div className={color ? "header header-bg" : "header" }>
             <Link to="/">
                 <h1> IE </h1>
             </Link>

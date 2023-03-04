@@ -48,7 +48,7 @@
 
 .contact {
     position: fixed; 
-    width:29px;
+    width:59px;
     height: 0;
     background-color: #fff;
     margin: auto auto;
@@ -58,7 +58,14 @@
     gap: 1.6rem;
     margin-top: -67rem;
     margin-left: -5rem;
+    padding-left: 0.5rem;
   }
+
+  .contactdiv {
+    color: var(--text-primary);
+    border: 1px solid var(--text-secondary);
+    border-radius: 50%;
+}
 
   .contacte {
     display: flex;
@@ -150,7 +157,6 @@
     background-color:#233554;
     border: 2px solid #233554;
     border-top: #172b4d;
-    /* border-bottom-width: 6px; */
     transition: transform .2s;
     transition: 0.3s all ease-in-out;
   }

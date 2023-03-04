@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.toggle {
+  margin-left: 94%;
+  position: fixed;
+  z-index: 10;
+  width: 6%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +42,13 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+@media screen and (max-width: 640px) {
+
+.toggle{
+  margin-left: 66%;
+}
+
 }

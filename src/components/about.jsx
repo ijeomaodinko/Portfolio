@@ -17,69 +17,35 @@ function Aboutpage() {
             LET'S CONNECT
           </p>
                 </div>
-                <div className="contact">
-                     <div>
-                     <a href="https://twitter.com/pureblog0" target="_blank"
-        rel="noreferrer"  >
-                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
-                        </a>
-                    </div>
-                    <div>
-                    <a href="https://www.linkedin.com/in/ijeoma-odinko/" target="_blank"
-        rel="noreferrer" >
-                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
-                     </a>
-                    </div>
-                    <div>
-                    <a href="https://github.com/ijeomaodinko/"  target="_blank"
-        rel="noreferrer" >
-                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
-                    </a>
-                    </div>
-                    <div>
-                    <a href="https://medium.com/@estherlinei"  target="_blank"
-        rel="noreferrer" >
-                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
-                    </a>
-                    </div>
-                    <div>
-                     <a href="https://angel.co/u/ijeoma-odinko" target="_blank"
-        rel="noreferrer" >
-                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
-                        </a>
-                    </div>
-
-                </div>
-
-                <div className="contact">
-                     <div>
+                 <div className="contact">
+                     <div className="contactdiv">
                      <a href="https://twitter.com/pureblog0" target="_blank"
         rel="noreferrer" >
-                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaTwitter size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
                         </a>
                     </div>
-                    <div>
+                    <div className="contactdiv">
                     <a href="https://www.linkedin.com/in/ijeoma-odinko/"  target="_blank"
         rel="noreferrer" >
-                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaLinkedin size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
                      </a>
                     </div>
-                    <div>
+                    <div className="contactdiv">
                     <a href="https://github.com/ijeomaodinko/" target="_blank"
         rel="noreferrer"  >
-                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaGithub size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
                     </a>
                     </div>
-                    <div>
+                    <div className="contactdiv">
                     <a href="https://medium.com/@estherlinei" target="_blank"
         rel="noreferrer"  >
-                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaMedium size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
                     </a>
                     </div>
-                    <div>
+                    <div className="contactdiv">
                      <a href="https://angel.co/u/ijeoma-odinko"  target="_blank"
         rel="noreferrer" >
-                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
+                        < FaAngellist size={29} style={{ color: "#ccd6f6", margin:"9px"}} />
                         </a>
                     </div>
 
