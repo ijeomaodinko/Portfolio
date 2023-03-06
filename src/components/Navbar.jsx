@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes, FaToggleOn} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import useLocalStorage from "use-local-storage";
 
 
 function Navbar() {
