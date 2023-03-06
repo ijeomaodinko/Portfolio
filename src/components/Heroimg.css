@@ -27,7 +27,6 @@ max-width: 900px;
 }
 
 .hip {
-  /* font-family: var(--font-sans); */
   color:var(--text-secondary);
   text-align: left;
   font-size: 25px;
@@ -170,8 +169,11 @@ max-width: 900px;
 }
 .h2 {
   font-size: 20px;
-  width:100%;
-margin-top: 2rem;
+  width:90%;
+margin: 0;
+margin-top: 12px;
+text-align: justify;
+
 font-family: sans-serif;
 line-height: 1.6;
 font-weight: 400;

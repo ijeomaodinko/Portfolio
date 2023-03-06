@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Heroimg from "../components/Heroimg";
 import Projects from "../components/projects";
 import Aboutpage from "../components/about";
+import Skillspage from "../components/skills";
 import Contactpage from "../components/contactme";
 import useLocalStorage from 'use-local-storage';
 import { FaToggleOn } from "react-icons/fa";
@@ -20,6 +21,7 @@ const Home = () => {
         <div className="toggle"><FaToggleOn onClick={switchTheme} size={29.9} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} /></div>
         <Heroimg />
         <Aboutpage />
+        <Skillspage />
         <Projects />
         <Contactpage /> */}
         </div>

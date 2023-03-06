@@ -6,8 +6,9 @@
   font-family: sans-serif;
 }
 
-body {
-  background: #0a192f;
+.app {
+  background-color: var(--background);
+  width: auto;
 }
 
 h1, h4, p,
@@ -74,8 +75,9 @@ transition: 0.3s;
   --background: #eaebed;
   --text-primary: #2e424d;
   --text-secondary:#e65c4f;
-  --text-tertiary: #326789;
+  --text-tertiary: #111111;
   --accent: #c1c1c1;
+  --bg-back: #eaebed; 
   --border: #ffab2f;
   --form-bg: #f2f2f2;
 }
@@ -85,6 +87,7 @@ transition: 0.3s;
   --text-secondary: #26d6a7;
   --text-tertiary: #a8b2d1;
   --accent: #999999;
+  --bg-light: black;
   --border: #ede700;
   --form-bg: #f2f2f2;
 }

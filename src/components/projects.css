@@ -1,19 +1,14 @@
 .projects {
-    background-color:  #0a192f;
+    background-color: var(--background);
     width: 100%;
     height: 191vh;
     top: 0;
     left: 0;
     margin: auto auto;
-    color:  #344563;
+    color: var(--text-primary);
     padding-right:8rem;
     padding-left: 8rem;
     padding-top: 2rem;
-    /* margin-bottom: 10rem; */
-}
-
-.projects:hover{
-    background-color: #0a192f;
 }
 .projectsis {
     background-color: #fff;
@@ -23,40 +18,31 @@
 }
 .wrapperp {
     display: grid;
-    background-color: #0a192f;
-    width: 86%;
-    height: 160vh;
+    background-color: var(--background);
+    width: 80%;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 29px;
     row-gap: 29px;
     margin: auto auto;
-    border-radius: 1rem;
-}
-.wrapperp:hover {
-    background-color:#0a192f;
+    border-radius: 12px;
+    padding-top: 12px;
 }
 .projectsi {
     text-align: center;
-    color: rgba(235, 30, 156, 0.993);
+    color: var(--text-secondary);
     padding-top: 4rem;
     padding-bottom: 1rem;
 }
 
-/* .project {
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding: 1rem;
-    border-radius: 0.5rem;
-} */
-
 .project {
-    width: 350px;
-    height: 359px;
+    width: 100%;
+    height: 316px;
     background: transparent;
     border-radius: 12px;
     text-align: center;
     position: relative;
-    /* rotate: -4deg; */
+    margin: 0;
+    padding: 0;
 }
 .project:hover .imgi {
     opacity: 0;
@@ -68,25 +54,19 @@
     position: absolute;
     width:100%;
     height: 316px;
-    top: 40%;
-    transform: translateY(-30%);
     text-align: center;
     left: 0;
     right: 0;
     border-radius: 0.5rem;
-    /* background-color: #ccd6f6; */
     opacity: 1;
     transition: opacity .3s linear;
-    rotate: 6deg;
     object-fit: cover;
     border: 2px solid #fff;
     box-shadow: inset 0 0 10px #000000;
-    /* box-shadow: 0 8px 8px -3px rgba(235, 30, 156, 0.993); */
     box-sizing: border-box;
     box-shadow: 0 5px 15px 0px;
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
-    /* img { width: 100%; height: auto; } */
 }
 
   @keyframes float {
@@ -110,16 +90,15 @@
       bottom: 0;
       position: absolute;
       opacity: 0;
-      background-color: #0a192f;
+      background-color: var(--background);
       border-radius: 12px;
       padding: 1rem;
-      /* rotate: 2.7deg; */
       animation: none;
-      border: 1px solid #64ffda
+      border: 2px solid var(--accent)
+
+      
     }
-.texti:hover {
-    animation: loader 0.69s;
-}
+
 .projectsesi{
     font-size: 79px;
     font-family: sans-serif;
@@ -128,19 +107,11 @@
     margin-right: 1rem;
     margin-top:0;
     margin-bottom: 0;
-    color:#8892b0;
+    color:var(--text-primary);
 }
-@keyframes loader {
-    0% {
-      rotate: 0deg;
-    }
-    95% {
-      border-radius: 50%;
-      rotate: 180deg;
-    }
-}
+
 .projectsisi{
-    color:  #ccd6f6;
+    color:  var(--text-primary);
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
@@ -168,8 +139,8 @@
 }
 
 .projectse {
-    color:  #ccd6f6;
-    font-size: 20px;
+    color: var(--text-primary);
+    font-size: 19px;
     text-align: justify;
     font-weight: 400;
     line-height: 1.6;
@@ -177,7 +148,7 @@
     visibility: visible;
     transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
     transition:cubic-bezier(0.645, 0.045, 0.355, 1)0.2s, transform 0.5 cubic-bezier(0.645, 0.045, 0.355, 1)0.2;
-    margin-top:1.1rem;
+    margin-top:0;
 }
 
 .projecti p {
@@ -199,26 +170,28 @@
 }
 .projectech  p{
     font-size: 16px;
-    color: #ccd6f6;
+    color: var(--text-primary);
     text-align: center;
     font-family: sans-serif;
-    /* background-color:rgba(133, 4, 83, 0.589); */
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.2rem;
     padding-bottom: 0.21rem;
     border-radius: 0.5rem;
     margin-top: 0; 
-    border: 1.5px solid rgba(219, 38, 150, 0.589);  
-    box-shadow: 1px 8px 8px -3px rgba(235, 30, 156, 0.993);
+    border: 1.5px solid var(--text-primary);  
+    box-shadow: 1px 8px 8px -3px var(--text-primary);
     margin-bottom: 1rem;
 }
 
+.projecti .projectise{
+   color: var(--text-primary);
+}
 .projectsisis {
     display: block;
     padding: 0.1rem;
-    border: 1px solid #64ffda;
-    box-shadow: 1px 8px 8px -7px #64ffda;
+    border: 1px solid var(--text-secondary);
+    box-shadow: 1px 8px 8px -7px var(--text-secondary);
     padding-bottom:0;
     padding-left: 0.1rem;
     padding-right: 0.1rem;
@@ -226,11 +199,11 @@
     border-radius: 0.5rem;  
 }
 .projectsisis p{
-    color: #ccd6f6;
+    color: var(--text-primary);
     font-size: 15px;
 }
 .projecti p:hover {
-    color: #92929c;
+    color: var(--text-primary);
     transition: 0.3ms;
 }
 
@@ -240,49 +213,48 @@
 width: 85%;
 margin-left: auto;
 margin-right: auto;
-height: 85%;
 }
 .texti{
     width: 100%;
     animation: none;
 }
 .imgd1{
- width: 100%;
- height: 90%;
+    width: 100%;
+    height: 90%;
 }
 
 .wrapperp{
- grid-template-columns: repeat(1, 1fr);   
- background-color:#0a192f;
- height: 340vh;
- grid-column-gap: 0;
- width: 85%;
+    grid-template-columns: repeat(1, 1fr);   
+    width: 85%;
+    margin-left: 1rem;
 }
 
 .projects {
-width: 100%;
- padding:0.1px;
- height: 381vh;
+    width: 100%;
+    padding:0.1px;
+    height: auto;
 }
 .projectechi {
-  display: flex;
-  flex-direction: row;
-  gap: 0.4rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 .projectech p{
-    font-size:15.1px;
+    font-size:14.1px;
 }
 .projectech {
     width: 5.9rem;
 }
 .projectsi {
-    font-size: 21px;
+    font-size: 22px;
+    font-weight: 600;
 }
 .projectse {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400;
+    margin-top: 0;
 }
 .projectsisis{
 font-size: 16px;

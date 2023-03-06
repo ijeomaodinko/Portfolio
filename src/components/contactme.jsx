@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactme.css";
-import {  FaTwitter, FaLinkedin, FaGithub, FaMedium, FaAngellist, FaMailBulk } from "react-icons/fa";
+import {  FaTwitter, FaLinkedin, FaGithub, FaMedium, FaAngellist, FaMailBulk, FaWhatsapp  } from "react-icons/fa";
 
 function Contactpage() {
     return (    
@@ -29,42 +29,41 @@ function Contactpage() {
                      <div>
                      <a href="https://twitter.com/pureblog0" target="_blank"
         rel="noreferrer" >
-                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaTwitter size={29} className="contactime" style={{ marginRight:"1.9rem"}} />
                         </a>
                     </div>
                     <div>
                     <a href="https://www.linkedin.com/in/ijeoma-odinko/" target="_blank"
         rel="noreferrer" >
-                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaLinkedin size={29} className="contactime" style={{ marginRight:"1.9rem"}} />
                      </a>
                     </div>
                     <div>
                     <a href="https://github.com/ijeomaodinko/" target="_blank"
         rel="noreferrer" >
-                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaGithub size={29} className="contactime" style={{ marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
                     <a href="https://medium.com/@estherlinei" target="_blank"
         rel="noreferrer" >
-                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaMedium size={29} className="contactime" style={{ marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
                      <a href="https://angel.co/u/ijeoma-odinko" target="_blank"
         rel="noreferrer" >
-                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
+                        < FaAngellist size={29} className="contactime" />
                         </a>
                     </div>
 
                 </div>
           <div className="contactis">
-          {/* <div className="phone">
-                    <h4>
-                    ©ijeomaodinko. All Rights Reserved</h4> </div> */}
                     <div className="mail">
-                    <h4>< FaMailBulk size={20} style={{ color: "rgb(173, 164, 164)", marginRight:"0.5rem"}} />
+                   <h4>< FaMailBulk size={20} style={{ color:"#999999", marginRight:"0.5rem"}} />
                    ijeomaodinko@gmail.com</h4>
+                    </div>
+                   <div className="whatsapp"><h5><a href="https://wa.me/2348037817167"  target="_blank" rel="noopener noreferrer"><FaWhatsapp size={29} style={{ color: "#26d6a7", marginRight:"0.5rem"}} /></a></h5>
                     </div>
           </div>
           </div>

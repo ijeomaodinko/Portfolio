@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#0a192f;
+    background-color:var(--background);
     background-size: contain;
     padding-left: 24px;
     padding-right: 24px;
@@ -14,12 +14,12 @@
   }
   
   .frm {
-    color: rgba(235, 30, 156, 0.993);
+    color: var(--text-secondary);
     font-size: 24px;
     font-style: normal;
     margin-bottom: 14px;
     text-align: center;
-    border-bottom: 1px solid #64ffda;
+    border-bottom: 1px solid var(--text-secondary);
     font-weight: 600;
     line-height: 1.6;
     margin-top: 26px;
@@ -39,12 +39,11 @@
 }
   
   .center {
-    color: #ccd6f6;
+    color: var(--text-primary);
     font-size: 20px;
     font-weight: 600;
     line-height: 2rem;
     text-align: center;
-    /* margin: 0 0 0 26px; */
     margin-bottom: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     visibility: visible;
@@ -60,17 +59,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--background);
   }
   
   .form-btn {
-    color:  #8892b0;
+    color:  var(--text-tertiary);
     border-radius: 12px;
     font-weight: 400;
     width: 149px;
     height: 47px;
     margin-top: 12px;
     background-color: transparent;
-    border: 2px solid #64ffda;
+    border: 2px solid var(--accent);
     font-size: 18px;
     padding: 0.1rem;
     margin-bottom: 4rem;
@@ -100,9 +100,11 @@
     font-size: 16px;
     font-weight: 400;
     padding: 8px;
-    background-color: transparent;
-    border: 2px solid #64ffda;
-    border-radius: 0.5rem;
+    background-color: var(--background);
+    border-left: 2px solid var(--accent);
+    border-right: 1px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    border-top: 1px solid var(--accent);
   }
   
   .username {
@@ -110,8 +112,10 @@
     width: 321px;
     padding: 8px;
     background-color: transparent;
-    border: 2px solid #64ffda;
-    border-radius: 0.5rem;
+    border-left: 2px solid var(--accent);
+    border-right: 1px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    border-top: 1px solid var(--accent);
   }
   
   .email {
@@ -119,8 +123,10 @@
     width: 321px;
     padding: 8px;
     background-color: transparent;
-    border: 2px solid #64ffda;
-    border-radius: 0.5rem;
+    border-left: 2px solid var(--accent);
+    border-right: 1px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    border-top: 1px solid var(--accent);
   }
   
   #email-error {
@@ -152,11 +158,19 @@
     flex-direction: row;
     gap: 2rem;
   }
+  .whatsapp {
+    display: flex;
+    flex-direction: row;
+  }
+
+.contactime {
+  color: var(--text-primary)
+}
 
 h4 {
-    color:#8892b0;
+    color:var(--text-primary);
     font-family: sans-serif;
-    font-size: px;
+    font-size: 16px;
    font-weight: 400;
 }
 
@@ -182,8 +196,8 @@ h4 {
 }
 
 .SectionfText{
-    width: 100%;
-    margin-top: -9.1rem;
+    width: 99%;
+    margin-top: 0.1rem;
 }
 
 .contactis {

@@ -1,17 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .toggle {
   margin-left: 94%;
   position: fixed;
   z-index: 10;
   width: 6%;
+  width: 2rem;
+  background-color: transparent;
 }
 
 @media (prefers-reduced-motion: no-preference) {

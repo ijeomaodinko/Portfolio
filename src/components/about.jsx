@@ -21,7 +21,7 @@ function Aboutpage() {
                      <div className="contactdiv">
                      <a href="https://twitter.com/pureblog0" target="_blank"
         rel="noreferrer" >
-                        < FaTwitter size={29} className="img" style={{ margin:"9px" }} />
+                        < FaTwitter size={24} className="img" style={{ margin:"9px" }} />
                         </a>
                     </div>
                     <div className="contactdiv">
@@ -55,31 +55,31 @@ function Aboutpage() {
                      <div>
                      <a href="https://twitter.com/pureblog0" target="_blank"
         rel="noreferrer" >
-                        < FaTwitter size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaTwitter size={29} className="imge" style={{ marginRight:"1.9rem"}} />
                         </a>
                     </div>
                     <div>
                     <a href="https://www.linkedin.com/in/ijeoma-odinko/" target="_blank"
         rel="noreferrer" >
-                        < FaLinkedin size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaLinkedin size={29} className="imge" style={{ marginRight:"1.9rem"}} />
                      </a>
                     </div>
                     <div>
                     <a href="https://github.com/ijeomaodinko/" target="_blank"
         rel="noreferrer" >
-                        < FaGithub size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaGithub size={29} className="imge" style={{ marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div>
                     <a href="https://medium.com/@estherlinei"  target="_blank"
         rel="noreferrer" >
-                        < FaMedium size={29} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} />
+                        < FaMedium size={29} className="imge" style={{ marginRight:"1.9rem"}} />
                     </a>
                     </div>
                     <div> 
                      <a href="https://angel.co/u/ijeoma-odinko" target="_blank"
         rel="noreferrer" >
-                        < FaAngellist size={29} style={{ color: "#ccd6f6"}} />
+                        < FaAngellist size={29} className="imge" />
                         </a>
                     </div>
 
@@ -91,30 +91,7 @@ function Aboutpage() {
                 Get My Resume </a></div>
             </div>
 
-
-            <div className="languages">
-            <h1 className="i"> Technologies </h1>
-            <div className="language">
-             <div class="box a">HTML</div>
-             <div class="box b">CSS</div>
-            <div class="box c">JavaScript</div>
-            <div class="box d">React</div>
-            <div class="box e">Ruby</div>
-            <div class="box f">Ruby on Rails</div>
-            <div class="box g">Redux</div>
-            <div class="box h">Rspec</div>
-            <div class="box i">PostgreSQL</div>
-            </div>
-            <h1 className="i"> Skills </h1>
-            <div className="language">
-             <div class="box a">Result Oriented</div>
-             <div class="box b">Team Player</div>
-            <div class="box c"> Time Management</div>
-            <div class="box d">Communication</div>
-            <div class="box e">Remote</div>
-            <div class="box f">Creative Thinking</div>
-            </div>
-            </div>
+            <div className="imgie"></div>
             </div>
         </div>
     )
