@@ -93,7 +93,7 @@
   }
   
   .textarea {
-    color: #ccd6f6;
+    color: var(--text-primary);
     height: 140px;
     width: 321px;
     line-height: 24px;
@@ -116,6 +116,7 @@
     border-right: 1px solid var(--accent);
     border-bottom: 2px solid var(--accent);
     border-top: 1px solid var(--accent);
+    color: var(--text-primary)
   }
   
   .email {
@@ -127,6 +128,7 @@
     border-right: 1px solid var(--accent);
     border-bottom: 2px solid var(--accent);
     border-top: 1px solid var(--accent);
+    color: var(--text-primary)
   }
   
   #email-error {

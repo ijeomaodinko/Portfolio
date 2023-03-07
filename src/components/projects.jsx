@@ -47,7 +47,7 @@ const Projects = () => {
           desc: "This project gives information about cryptocurrencies. The information was fetched from the API.",
           img: budget,
           tech: ['React', 'Redux', 'CSS'],
-          live: 'https://timely-medovik-20a0c5.netlify.app',
+          live: 'https://erypto.netlify.app/',
           source: 'https://github.com/ijeomaodinko/React-Project.git',
         },
         {
