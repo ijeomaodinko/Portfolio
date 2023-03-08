@@ -78,7 +78,7 @@ transition: 0.3s;
   --text-tertiary: #111111;
   --accent: #c1c1c1;
   --bg-back: #eaebed; 
-  --border: #ffab2f;
+  --border: #eaebed;
   --form-bg: #f2f2f2;
 }
 [data-theme='dark']{
@@ -88,7 +88,7 @@ transition: 0.3s;
   --text-tertiary: #a8b2d1;
   --accent: #999999;
   --bg-light: black;
-  --border: #ede700;
+  --border: #a8b2d1;
   --form-bg: #f2f2f2;
 }
 
