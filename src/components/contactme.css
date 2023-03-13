@@ -19,7 +19,8 @@
     font-style: normal;
     margin-bottom: 14px;
     text-align: center;
-    border-bottom: 1px solid var(--text-secondary);
+    border-bottom: 6px solid var(--text-secondary);
+    border-radius: 6px;
     font-weight: 600;
     line-height: 1.6;
     margin-top: 26px;

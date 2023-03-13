@@ -72,9 +72,9 @@ transition: 0.3s;
 }
 
 :root {
-  --background: #eaebed;
+  --background: #fff;
   --text-primary: #2e424d;
-  --text-secondary:#e65c4f;
+  --text-secondary:#e80000;
   --text-tertiary: #111111;
   --accent: #c1c1c1;
   --bg-back: #eaebed; 

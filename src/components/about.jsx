@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTwitter, FaLinkedin, FaGithub, FaMedium, FaAngellist } from "react-icons/fa";
 import "./about.css";
+import imgijeoma from "../assets/imgijeoma.jpg"
 
 function Aboutpage() {
     return (
@@ -91,7 +92,11 @@ function Aboutpage() {
                 Get My Resume </a></div>
             </div>
 
-            <div className="imgie"></div>
+            {/* <div className="imgie">
+            <div className="imgportfolio">
+                <img  className="aboutimg" src={imgijeoma}  alt= "Ijeoma" />
+            </div>
+            </div> */}
             </div>
         </div>
     )
