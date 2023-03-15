@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTwitter, FaLinkedin, FaGithub, FaMedium, FaAngellist } from "react-icons/fa";
 import "./about.css";
-import imgijeoma from "../assets/imgijeoma.jpg"
+// import imgijeoma from "../assets/imgijeoma.jpg"
 
 function Aboutpage() {
     return (
