@@ -102,10 +102,10 @@
     font-weight: 400;
     padding: 8px;
     background-color: var(--background);
-    border-left: 2px solid var(--accent);
-    border-right: 1px solid var(--accent);
+    border-left: 2px solid transparent;
+    border-right: 1px solid transparent;
     border-bottom: 2px solid var(--accent);
-    border-top: 1px solid var(--accent);
+    border-top: 1px solid transparent;
   }
   
   .username {
@@ -113,10 +113,10 @@
     width: 321px;
     padding: 8px;
     background-color: transparent;
-    border-left: 2px solid var(--accent);
-    border-right: 1px solid var(--accent);
+    border-left: 2px solid transparent;
+    border-right: 1px solid transparent;
     border-bottom: 2px solid var(--accent);
-    border-top: 1px solid var(--accent);
+    border-top: 1px solid transparent;
     color: var(--text-primary)
   }
   
@@ -125,10 +125,10 @@
     width: 321px;
     padding: 8px;
     background-color: transparent;
-    border-left: 2px solid var(--accent);
-    border-right: 1px solid var(--accent);
+    border-left: 2px solid transparent;
+    border-right: 1px solid transparent;
     border-bottom: 2px solid var(--accent);
-    border-top: 1px solid var(--accent);
+    border-top: 1px solid transparent;
     color: var(--text-primary)
   }
   
