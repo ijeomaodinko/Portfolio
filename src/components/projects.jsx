@@ -6,6 +6,7 @@ import math from "../assets/math-magician.png";
 import todo from "../assets/todo.png";
 import horror from "../assets/horror.png";
 import bookstore from "../assets/bookstore.png";
+import spacetravelershub from "../assets/spacetravelershub.png"
 
 
 const Projects = () => {
@@ -43,7 +44,7 @@ const Projects = () => {
         {
             id: 4,
           title: 'Erypto App',
-          subt: ['CANOPY', 'Back End Dev', '2022'],
+          subt: ['CANOPY', 'Front End Dev', '2022'],
           desc: "This project gives information about cryptocurrencies. The information was fetched from the API.",
           img: budget,
           tech: ['React', 'Redux', 'CSS'],
@@ -53,12 +54,22 @@ const Projects = () => {
         {
             id: 5,
           title: 'Bookstore',
-          subt: ['CANOPY', 'Back End Dev', '2022'],
-          desc: "This project for online user who want to store an ebook with the details of the book",
+          subt: ['CANOPY', 'Front End Dev', '2022'],
+          desc: "This project is for online users who want to store an ebook with the details of the books.",
           img: bookstore,
           tech: ['React', 'Redux', 'CSS'],
           live: 'https://bookstoreonlineport.netlify.app/',
           source: 'https://github.com/ijeomaodinko/React-Project.git',
+        },
+        {
+            id: 5,
+          title: 'Space Travelers Hub',
+          subt: ['CANOPY', 'Front End Dev', '2022'],
+          desc: "The real live data from the SpaceX API was used to build a web for company that provides commercial and scientific space travel services. The application allow users to book rockets, dragons and join selected space missions.",
+          img: spacetravelershub,
+          tech: ['React', 'Redux', 'CSS'],
+          live: 'https://space-travellers-hubi.netlify.app/',
+          source: 'https://github.com/ijeomaodinko/Space-Travelers-Hub.git',
         },
     ];
     return (
