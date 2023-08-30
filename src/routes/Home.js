@@ -7,17 +7,32 @@ import Skillspage from "../components/skills";
 import Contactpage from "../components/contactme";
 import useLocalStorage from 'use-local-storage';
 import { FaToggleOn } from "react-icons/fa";
+import { FaToggleOff } from "react-icons/fa";
 
 const Home = () => {
-    const [theme, setTheme] = useLocalStorage('theme' ? 'dark': 'light');
+    const [theme, setTheme] = useLocalStorage('theme', 'light');
    const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme)
+    setTheme(newTheme);
    }
     return (
         <div className='app' data-theme={theme}>
         <Navbar />
-            <div className="toggle"><FaToggleOn onClick={switchTheme} size={29.9} style={{ color: "#ccd6f6", marginRight:"1.9rem"}} /></div>
+            <div className="toggle">
+            {theme === 'light' ? (
+          <FaToggleOff
+            onClick={switchTheme}
+            size={29.9}
+            style={{ color: "#ccd6f6", marginRight: "1.9rem" }}
+          />
+        ) : (
+          <FaToggleOn
+            onClick={switchTheme}
+            size={29.9}
+            style={{ color: "#ccd6f6", marginRight: "1.9rem" }}
+          />
+        )}
+            </div>
         <Heroimg />
         <Aboutpage />
         <Skillspage />

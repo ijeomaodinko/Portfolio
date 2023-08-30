@@ -9,7 +9,12 @@ function Navbar() {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);  
+    const closeMenu = () => setClick(false);
+
+
     const [color, setColor] = useState(false);
+
+
     const changeColor = () => {
         if (window.scrolly >=100) {
             setColor(true);
@@ -26,23 +31,23 @@ function Navbar() {
             </Link>
             <ul className={ click ? "nav-menu active" : "nav-menu" } >
             <li>
-            <AnchorLink href="#home">Home</AnchorLink>
+            <AnchorLink href="#home"  onClick={closeMenu}>Home</AnchorLink>
             </li>
             <li>
-            <AnchorLink href="#about">About</AnchorLink>
+            <AnchorLink href="#about"  onClick={closeMenu}>About</AnchorLink>
                
             </li>
             <li>
-      <AnchorLink href="#projects">Projects</AnchorLink>
+      <AnchorLink href="#projects"  onClick={closeMenu}>Projects</AnchorLink>
                
             </li>
             <li>
-      <AnchorLink href="#contact">Contact</AnchorLink>
+      <AnchorLink href="#contact"  onClick={closeMenu}>Contact</AnchorLink>
             </li>
             </ul>
             <div className="hamburger" onClick={ handleClick }>
-                {click ? (< FaTimes  size={20} style={{color: "#fff"}} />) : 
-                (  < FaBars  size={20} style={{color: "#fff"}} />)};
+                {click ? (< FaTimes  size={20} style={{color: "#fff"}} />): 
+                (  < FaBars  size={20} style={{color: "#fff"}} />)}
             </div>
         </div>
     )

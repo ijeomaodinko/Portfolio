@@ -85,7 +85,6 @@ const Projects = () => {
                 </div>  
             </div>
             <div className="texti">
-            {/* <h1 className="projectsesi">{projects.id}</h1> */}
                 <div><p className="projectse">{projects.desc}</p></div>
                 <div className="projectechi">
                 {projects.tech.map((tech, index) => {
