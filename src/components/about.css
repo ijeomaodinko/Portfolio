@@ -19,7 +19,7 @@
 .aboutpage {
     width: 120%;
     height: 100vh;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: 00repeat(7, 1fr);
     column-gap: 12px;
     text-align: justify;
 }
@@ -166,10 +166,11 @@ border-radius: 50% 0 50% 50% / 40% 0 60% 60%;
     display:block;
     margin: auto auto;
     width: 85%;
+    padding-top: 1.9rem;
   }  
 .aboutContent {
- width: 80%;
- margin-top: 7rem;
+ width: 79%;
+ margin-top: 5.9rem;
  border-radius: 0.5rem;
 }
 .i {
@@ -242,9 +243,15 @@ border-radius: 50% 0 50% 50% / 40% 0 60% 60%;
   }
 
   .languagediv{
-    width: 100%;
-    margin-top: 9rem;
+    width: 94%;
+    margin-top: 12rem;
     padding-left: 0;
-    margin-left: 0;
+    margin-left: -4rem;
+  }
+  .box :hover{
+    background-color: var(--text-primary);
+    color: var(--background);
+    border-bottom-width: 1px;
+    transition: 0.3ms;
   }
 }

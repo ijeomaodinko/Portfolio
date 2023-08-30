@@ -1,6 +1,6 @@
 .projects {
     background-color: var(--background);
-    width: 100%;
+    width: 94%;
     height: 191vh;
     top: 0;
     left: 0;
@@ -13,13 +13,13 @@
 .projectsis {
     background-color: #fff;
     padding-bottom:2rem;
-    padding-right:2rem;
-    padding-left: 2rem;
+    padding-right:1.6rem;
+    padding-left: 1.6rem;
 }
 .wrapperp {
     display: grid;
     background-color: var(--background);
-    width: 80%;
+    width: 79.9%;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 29px;
     row-gap: 29px;
@@ -35,7 +35,7 @@
 }
 
 .project {
-    width: 100%;
+    width: 94%;
     height: 316px;
     background: transparent;
     border-radius: 12px;
@@ -43,6 +43,8 @@
     position: relative;
     margin: 0;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .project:hover .imgi {
     opacity: 0;

@@ -3,23 +3,23 @@ import "./projects.css";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import budget from "../assets/budget.png";
 import math from "../assets/math-magician.png";
-import todo from "../assets/todo.png";
 import horror from "../assets/horror.png";
 import bookstore from "../assets/bookstore.png";
-import spacetravelershub from "../assets/spacetravelershub.png"
+import spacetravelershub from "../assets/spacetravelershub.png";
+import ecommerce from "../assets/ecommerce.png";
 
 
 const Projects = () => {
     const data= [
         {
             id: 1,
-          title: 'Math Magicians Calculator',
-          subt: ['CANOPY', 'Front End Dev', '2022'],
-          desc: "The Math Magicians Calculator is a simple calculator that enables you to perform simple calculations. It is built with react and has a Single Page Application that shows information like quotes.",
-          img: math,
-          tech: ['React', 'CSS'],
-          live: 'https://math-magician-quotes.netlify.app/#/Calculator',
-          source: 'https://github.com/ijeomaodinko/Math-magicians.git',
+          title: 'E-Commerce App',
+          subt: ['CANOPY', 'FullStack Dev', '2023'],
+          desc: "This app significantly transforms the way buyers and manufacturers interact by providing a seamless and efficient link between them enabling businesses to operate more effectively.",
+          img: ecommerce,
+          tech: ['React', 'Rails', 'Postgres'],
+          live: 'https://easybazaar-app.netlify.app/',
+          source: 'https://github.com/ijeomaodinko/e-commerce.git',
         },
         {
             id: 2,
@@ -32,15 +32,15 @@ const Projects = () => {
           source: 'https://github.com/ijeomaodinko/CAPSTONE_2.git',
         },
         {
-            id: 3,
-          title: 'To Do App',
-          subt: ['CANOPY', 'Front End Dev', '2022'],
-          desc: "This project contains codes that enable users to add their activities and be able to remove them once it is complete.",
-          img: todo,
-          tech: ['HTML', 'CSS', 'JavaScript'],
-          live: 'https://todo-list-assign.netlify.app/',
-          source: 'https://github.com/ijeomaodinko/todo-list-project.git',
-        },
+          id: 3,
+        title: 'Math Magicians Calculator',
+        subt: ['CANOPY', 'Front End Dev', '2022'],
+        desc: "The Math Magicians Calculator is a simple calculator that enables you to perform simple calculations. It is built with react and has a Single Page Application that shows information like quotes.",
+        img: math,
+        tech: ['React', 'CSS'],
+        live: 'https://math-magician-quotes.netlify.app/#/Calculator',
+        source: 'https://github.com/ijeomaodinko/Math-magicians.git',
+      },
         {
             id: 4,
           title: 'Erypto App',
